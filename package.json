@@ -1,0 +1,16 @@
+{
+  "name": "practice-software-delivery-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/service.js",
+    "test": "node --test tests/",
+    "test:coverage": "node --test --experimental-test-coverage tests/",
+    "test:debug": "node --inspect --watch  --test tests/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
